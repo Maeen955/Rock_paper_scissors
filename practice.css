@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+font-family: 'Times New Roman', Times, serif;}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a0a23;
+    color: #ffffff;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container h1{
+    margin: 10px 0px;
+}
+.container #rule{
+    width: 400px;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 5px solid #f1be32;
+    margin: 20px 0px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+    line-height:28px;
+}
+.container i{
+    margin: 0px 5px;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    width: 100%;
+    font-size: 22px;
+    margin: 20px 0px;
+}
+.container h2{
+    margin: 20px 0px;
+}
+.rocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0px;
+}
+.rocks button{
+    font-size: 18px;
+    width: 100px;
+    border: 1px solid #f1be32;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 2px 0px;
+    background-color: #ffc244;
+    border: 3px solid #463c1e;
+    cursor: pointer;
+    
+
+}
+#oh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#again{
+    font-size: 18px;
+    width: 100px;
+    border: 1px solid #f1be32;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 2px 0px;
+    background-color: #ffc244;
+    border: 3px solid #463c1e;
+    cursor: pointer;
+    display: none;
+    
+
+}
+#result{
+    margin: 20px 0px;
+    font-size: 1.5rem;
+}

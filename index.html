@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dictionary_app_javascript</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="practice.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<div class="container" id="container">
+  <h1>Let's play Rock, Paper, Scissors!</h1>
+  <button id="rule"><i class="fa-solid fa-play"></i>Rules to the game
+
+    
+   
+  </button>
+  <div class="score">
+    <p>Player Score: <span id="pScore">0</span></p>
+    <p>Computer Score: <span id="cScore">0</span> </p>
+
+  </div>
+  <div id="oh">
+    <h2>Choose an option:</h2>
+    <div class="rocks">
+      <button id="rock" onclick="playerPlay(`Rock`)">Rock</button>
+      <button id="paper" onclick="playerPlay(`Paper`)">Paper</button>
+      <button id="scissors" onclick="playerPlay(`Scissors`)">Scissors</button>
+  
+    </div>
+
+  </div>
+  <p id="result"></p>
+  <button id="again" onclick="window.location.reload()">Play Again</button>
+
+</div>
+
+<script src="practice.js"></script>
+  
+</body>
+</html>
